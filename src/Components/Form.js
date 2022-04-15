@@ -115,7 +115,7 @@ function Form() {
                             <li className="list-group-item">Age: {age}</li>
                             <li className="list-group-item">Country: {country}</li>
                             <li className="list-group-item">ImagesDog:
-                                <img src={imagesDog} className="rounded img-fluid" alt="" />
+                                <img src={imagesDog} className="rounded img-fluid d-md-flex mx-auto" alt="" />
                             </li>
                             <li className="list-group-item">Activity: {activity}</li>
                         </ul>
@@ -127,7 +127,7 @@ function Form() {
                         <button type="button" className="col-sm-6 d-md-flex justify-content-md-center btn btn-primary mx-auto mb-3" onClick={handleClick}>Click to Check</button>
                         <ul className="list-group text-dark">
                             <li className="list-group-item">Picture:
-                                <img src={picture} className="rounded img-fluid" alt="" />
+                                <img src={picture} className="rounded img-fluid d-md-flex mx-auto" alt="" />
                             </li>
                             <li className="list-group-item">Name: {nameCheck}</li>
                             <li className="list-group-item">Age: {ageCheck}</li>
